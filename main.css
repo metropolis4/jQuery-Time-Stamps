@@ -1,0 +1,47 @@
+body { 
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1.5em;
+    background: #3e3b36;
+}
+.userInput {
+    width: 50%;
+    margin: auto;
+    border-left: 1px solid black;
+}
+.input {
+    border-bottom: 1px solid black;
+}
+input {
+    box-shadow: 0 0 5px #666666;
+    border: none;
+    margin: 40px 5px;
+    padding: 5px;
+}
+button {
+    border: none;
+    background: #009E02;
+    color: #ffffff;
+    margin: 40px 5px;
+    padding: 5px;
+    transition: .2s transform, 1s opacity;
+    transform:perspective(800px);
+    transform-style:preserve-3d;
+}
+button:hover {
+    cursor: pointer;
+    background: #007B01;
+}
+button:active {
+    transform:perspective(800px) rotate3d(1, 0, 0, 40deg);
+}
+p {
+    background: #d3d3d3;
+    font-size: 1.5em;
+    width: 70%;
+    margin: 10px auto;
+    padding: 10px;
+    border-radius: 5px;
+}
+i {
+    font-size: 0.3em;
+}
